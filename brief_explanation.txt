@@ -1,6 +1,9 @@
 I chose to send coordinate (x, y), motor speed, and IR values to simulate robotics-related information.
-The IR values contribute to the system by indicating whether or not the system is on path. If the car is off the line, the sensor will read a different value than if it were on the line. 
+The IR values contribute to the system by indicating whether or not the system is on path. 
+If the car is off the line, the sensor will read a different value than if it were on the line. 
 This information can be used to make other decisions such as where to steer.
-The coordinate values contribute by indicating the current location of the system. This information could be used to map out the history and current location.
-The motor speed contributes by controlling the actual system. The publisher node utilizes a left and right motor which stees the system by increaseing/decreasing the values of either motor.
+The coordinate values contribute by indicating the current location of the system. 
+This information could be used to map out the history and current location.
+The motor speed contributes by controlling the actual system. 
+The publisher node utilizes a left and right motor which stees the system by increaseing/decreasing the values of either motor.
 When combined together, these types of data would allow a car to self navigate and steer on a 'black line'
