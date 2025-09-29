@@ -3,8 +3,7 @@
 '''
 Publisher Node to simulate a robot following a black line on a white surface using IR sensor
 - GPS Location Publisher Node
-    GPS coordinates (latitude, longitude)
-        Latitude to increase incrementally
+    GPS coordinates (x, y)
 - Motor (Left/Right and Speed) Publisher Node
     Left/Right motor speed (0-100)
     If IR sensor detects white surface, left or right motor speed is set to 100 to turn the robot
