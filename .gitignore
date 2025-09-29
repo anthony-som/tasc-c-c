@@ -1,0 +1,17 @@
+# VS Code files
+.vscode/browse.vc.db*
+.vscode/*.db
+.vscode/*.db-*
+
+# Log files
+log/
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+build/
+install/
